@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_dark_transparent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/vikingsLogo"
+        android:layout_width="278dp"
+        android:layout_height="255dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vikings3" />
+
+    <ImageView
+        android:id="@+id/lagertha"
+        android:layout_width="125sp"
+        android:layout_height="125sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/vikingsLogo"
+        app:layout_constraintTop_toBottomOf="@+id/vikingsLogo"
+        app:srcCompat="@drawable/lagertha" />
+
+    <ImageView
+        android:id="@+id/ragnar"
+        android:layout_width="125sp"
+        android:layout_height="125sp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        app:layout_constraintEnd_toEndOf="@+id/vikingsLogo"
+        app:layout_constraintStart_toEndOf="@+id/lagertha"
+        app:layout_constraintTop_toTopOf="@+id/lagertha"
+        app:srcCompat="@drawable/ragnar" />
+
+    <ImageView
+        android:id="@+id/floki"
+        android:layout_width="125sp"
+        android:layout_height="125sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/ragnar"
+        app:layout_constraintTop_toBottomOf="@+id/ragnar"
+        app:srcCompat="@drawable/floki" />
+
+    <ImageView
+        android:id="@+id/bjorn"
+        android:layout_width="125sp"
+        android:layout_height="125sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/lagertha"
+        app:layout_constraintTop_toBottomOf="@+id/lagertha"
+        app:srcCompat="@drawable/bjorn" />
+
+    <ImageView
+        android:id="@+id/athelstan"
+        android:layout_width="125sp"
+        android:layout_height="125sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/floki"
+        app:layout_constraintTop_toBottomOf="@+id/floki"
+        app:srcCompat="@drawable/athelstan" />
+
+    <ImageView
+        android:id="@+id/rollo"
+        android:layout_width="125sp"
+        android:layout_height="125sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/bjorn"
+        app:layout_constraintTop_toBottomOf="@+id/bjorn"
+        app:srcCompat="@drawable/rollo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
